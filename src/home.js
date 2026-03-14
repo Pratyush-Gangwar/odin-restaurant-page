@@ -28,8 +28,8 @@ function loadHome() {
     sectionElem.appendChild(headingElem);
 
     loadText(sectionElem);
-
     mainElem.appendChild(sectionElem);
+    
     loadImg(mainElem);
 }
 

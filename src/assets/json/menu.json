@@ -1,0 +1,27 @@
+[
+    {
+        "name": "Garden Harvest Bowl",
+        "description": "Quinoa, roasted sweet potatoes, chickpeas, avocado, spinach, and tahini-lemon dressing.",
+        "price": "€9.50"
+    },
+    {
+        "name": "Plant Power Burger",
+        "description": "House-made lentil-mushroom patty, vegan cheese, caramelized onions, pickles, and smoky sauce in a vegan bun.",
+        "price": "€12.00"
+    },
+    {
+        "name": "Creamy Cashew Alfredo Pasta",
+        "description": "Fettuccine in a silky cashew-garlic sauce with sautéed mushrooms and fresh parsley.",
+        "price": "€11.00"
+    },
+    {
+        "name": "Roasted Veggie Tacos",
+        "description": "Corn tortillas filled with spiced peppers, zucchini, black beans, guacamole, and lime salsa.",
+        "price": "€8.75"
+    },
+    {
+        "name": "Vegan Truffle Mushroom Pizza",
+        "description": "Thin crust topped with plant-based mozzarella, mushrooms, truffle oil, and basil.",
+        "price": "€14.00"
+    }
+]
