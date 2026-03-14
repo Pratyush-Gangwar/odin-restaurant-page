@@ -1,0 +1,15 @@
+main {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+
+    #description {
+        flex: 1 1 0;
+    }
+
+    img {
+        height: 480px;
+        width: 854px;
+    }
+}
+
