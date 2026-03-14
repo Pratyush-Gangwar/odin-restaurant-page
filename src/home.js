@@ -17,7 +17,7 @@ function loadImg(mainElem) {
     mainElem.appendChild(imgElem);
 }
 
-function loadPage() {
+function loadHome() {
     const mainElem = document.querySelector("main");
 
     const sectionElem = document.createElement("section");
@@ -33,4 +33,4 @@ function loadPage() {
     loadImg(mainElem);
 }
 
-export {loadPage};
+export {loadHome};

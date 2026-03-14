@@ -1,4 +1,21 @@
 import "./styles.css";
-import { loadPage } from "./load.js";
+import { loadHome } from "./home.js";
 
-loadPage();
+const mainElem = document.querySelector("main");
+loadHome();
+
+const homeBtn = document.querySelector("#home");
+homeBtn.addEventListener("click", () => {
+    mainElem.replaceChildren();
+    loadHome();
+});
+
+const menuBtn = document.querySelector("#menu");
+menuBtn.addEventListener("click", () => {
+    mainElem.replaceChildren();
+});
+
+const contactBtn = document.querySelector("#contact");
+contactBtn.addEventListener("click", () => {
+    mainElem.replaceChildren();
+});
