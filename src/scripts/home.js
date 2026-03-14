@@ -1,5 +1,7 @@
-import description from "./assets/text/lorem.txt";
-import restaurantImg from "./assets/img/restaurant.webp";
+import description from "../assets/text/lorem.txt";
+import restaurantImg from "../assets/img/restaurant.webp";
+
+import "../styles/home.css";
 
 function loadText(sectionElem) {
     description

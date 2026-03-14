@@ -1,4 +1,4 @@
-import menuItems from "./assets/json/menu.json";
+import menuItems from "../assets/json/menu.json";
 
 function loadItems(sectionElem) {
     menuItems.forEach( item => {

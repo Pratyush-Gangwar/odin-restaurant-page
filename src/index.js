@@ -1,6 +1,6 @@
-import "./styles.css";
-import { loadHome } from "./home.js";
-import { loadMenu } from "./menu.js";
+import { loadHome } from "./scripts/home.js";
+import { loadMenu } from "./scripts/menu.js";
+import { loadContact } from "./scripts/contact.js";
 
 const mainElem = document.querySelector("main");
 loadHome();
@@ -20,4 +20,5 @@ menuBtn.addEventListener("click", () => {
 const contactBtn = document.querySelector("#contact");
 contactBtn.addEventListener("click", () => {
     mainElem.replaceChildren();
+    loadContact();
 });
